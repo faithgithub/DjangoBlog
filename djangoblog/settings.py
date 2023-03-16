@@ -106,10 +106,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get('MYSQL_NAME') or 'djangoblog',
         'USER': os.environ.get('MYSQL_USERNAME') or 'root',
-        'PASSWORD': os.environ.get('MYSQL_PASSWORD') or 'djangoblog_123',
-        'HOST': os.environ.get('MYSQL_HOST') or '127.0.0.1',
+        'PASSWORD': os.environ.get('MYSQL_PASSWORD') or '3mW70286ZQSE',
+        'HOST': os.environ.get('MYSQL_HOST') or 'infra.zeabur.com',
         'PORT': int(
-            os.environ.get('MYSQL_PORT') or 3306),
+            os.environ.get('MYSQL_PORT') or 32451),
         'OPTIONS': {
             'charset': 'utf8mb4'},
     }}
